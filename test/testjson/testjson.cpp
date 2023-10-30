@@ -74,7 +74,8 @@ string func4() {
 
 
 int main() {
-    //func3();
+    func3();
+    func2();
     string recvBuf = func4();
     //数据的反序列化
     json jsbuf = json::parse(recvBuf);
