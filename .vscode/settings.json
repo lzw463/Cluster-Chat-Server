@@ -1,6 +1,8 @@
 {
     "files.associations": {
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "functional": "cpp",
+        "unordered_map": "cpp"
     },
-    "cmake.sourceDirectory": "/home/hfut/Cluster Chat Server/test/testmuduo"
+    "cmake.sourceDirectory": "/home/hfut/Cluster_Chat_Server"
 }

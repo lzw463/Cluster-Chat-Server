@@ -3,7 +3,10 @@
         {
             "name": "Linux",
             "includePath": [
-                "${default}"
+                "${default}",
+                "/home/hfut/Cluster_Chat_Server/include/server",
+                "/home/hfut/Cluster_Chat_Server/thirdparty",
+                "/home/hfut/Cluster_Chat_Server/include/server/db"
             ],
             "compilerPath": "/usr/bin/gcc",
             "cStandard": "gnu11",
