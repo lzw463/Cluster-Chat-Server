@@ -16,6 +16,11 @@
 },
 {
   "directory": "/home/hfut/Cluster_Chat_Server/build/src/server",
+  "command": "/usr/bin/g++   -I/home/hfut/Cluster_Chat_Server/include -I/home/hfut/Cluster_Chat_Server/include/server -I/home/hfut/Cluster_Chat_Server/include/server/db -I/home/hfut/Cluster_Chat_Server/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/usermodel.cpp.o -c /home/hfut/Cluster_Chat_Server/src/server/usermodel.cpp",
+  "file": "/home/hfut/Cluster_Chat_Server/src/server/usermodel.cpp"
+},
+{
+  "directory": "/home/hfut/Cluster_Chat_Server/build/src/server",
   "command": "/usr/bin/g++   -I/home/hfut/Cluster_Chat_Server/include -I/home/hfut/Cluster_Chat_Server/include/server -I/home/hfut/Cluster_Chat_Server/include/server/db -I/home/hfut/Cluster_Chat_Server/thirdparty  -g -g   -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/hfut/Cluster_Chat_Server/src/server/db/db.cpp",
   "file": "/home/hfut/Cluster_Chat_Server/src/server/db/db.cpp"
 }

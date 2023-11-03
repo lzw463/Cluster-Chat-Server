@@ -6,6 +6,8 @@
 
 #IncludeRegexTransform: 
 
+../include/public.hpp
+
 ../include/server/chatserver.hpp
 muduo/net/TcpServer.h
 -
@@ -19,6 +21,8 @@ unordered_map
 -
 functional
 -
+usermodel.hpp
+../include/server/usermodel.hpp
 json.hpp
 ../include/server/json.hpp
 
@@ -28,7 +32,13 @@ mysql/mysql.h
 string
 -
 
-../include/server/public.hpp
+../include/server/user.hpp
+string
+-
+
+../include/server/usermodel.hpp
+user.hpp
+../include/server/user.hpp
 
 ../thirdparty/json.hpp
 algorithm
@@ -443,6 +453,14 @@ muduo/base/Logging.h
 /home/hfut/Cluster_Chat_Server/src/server/main.cpp
 chatserver.hpp
 /home/hfut/Cluster_Chat_Server/src/server/chatserver.hpp
+iostream
+-
+
+/home/hfut/Cluster_Chat_Server/src/server/usermodel.cpp
+usermodel.hpp
+/home/hfut/Cluster_Chat_Server/src/server/usermodel.hpp
+db.h
+/home/hfut/Cluster_Chat_Server/src/server/db.h
 iostream
 -
 
