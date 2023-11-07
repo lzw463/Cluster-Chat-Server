@@ -4,6 +4,7 @@
 #include <unordered_map>
 #include <functional>
 #include <mutex>
+#include "offlinemessagemodel.hpp"
 #include "usermodel.hpp"
 #include "json.hpp"
 using namespace std;
@@ -22,6 +23,8 @@ public:
     //处理登录注册业务
     void login(const TcpConnectionPtr &conn, json &js, Timestamp time);
     void reg(const TcpConnectionPtr &conn, json &js, Timestamp time);
+    //一对一聊天业务
+    void oneChat(const TcpConnectionPtr &conn, json &js, Timestamp time);
     //获取消息对应的处理器
     MsgHandler getHandler(int);
     //处理客户端异常退出
@@ -40,4 +43,6 @@ private:
 
     //数据操作类对象 服务里面只依赖model类，不做具体的数据库操作，而且model给业务层提供的都是对象
     UserModel _userModel;
+
+    offlineMsgModel _offlineMsgModel;
 };
