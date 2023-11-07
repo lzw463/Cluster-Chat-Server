@@ -29,6 +29,8 @@ public:
     MsgHandler getHandler(int);
     //处理客户端异常退出
     void clientCloseException(const TcpConnectionPtr& conn);
+    //服务器异常退出，业务重置
+    void reset();
 private:
     ChatService();
     //存储消息id和对应的业务处理方法
