@@ -21,15 +21,33 @@ unordered_map
 -
 functional
 -
+mutex
+-
+offlinemessagemodel.hpp
+../include/server/offlinemessagemodel.hpp
 usermodel.hpp
 ../include/server/usermodel.hpp
 json.hpp
 ../include/server/json.hpp
+friendmodel.hpp
+../include/server/friendmodel.hpp
 
 ../include/server/db/db.h
 mysql/mysql.h
 -
 string
+-
+
+../include/server/friendmodel.hpp
+user.hpp
+../include/server/user.hpp
+vector
+-
+
+../include/server/offlinemessagemodel.hpp
+string
+-
+vector
 -
 
 ../include/server/user.hpp
@@ -443,6 +461,8 @@ public.hpp
 /home/hfut/Cluster_Chat_Server/src/server/public.hpp
 muduo/base/Logging.h
 -
+vector
+-
 
 /home/hfut/Cluster_Chat_Server/src/server/db/db.cpp
 db.h
@@ -450,11 +470,27 @@ db.h
 muduo/base/Logging.h
 -
 
+/home/hfut/Cluster_Chat_Server/src/server/friendmodel.cpp
+friendmodel.hpp
+/home/hfut/Cluster_Chat_Server/src/server/friendmodel.hpp
+db.h
+/home/hfut/Cluster_Chat_Server/src/server/db.h
+
 /home/hfut/Cluster_Chat_Server/src/server/main.cpp
 chatserver.hpp
 /home/hfut/Cluster_Chat_Server/src/server/chatserver.hpp
+chatservice.hpp
+/home/hfut/Cluster_Chat_Server/src/server/chatservice.hpp
 iostream
 -
+signal.h
+-
+
+/home/hfut/Cluster_Chat_Server/src/server/offlinemessagemodel.cpp
+offlinemessagemodel.hpp
+/home/hfut/Cluster_Chat_Server/src/server/offlinemessagemodel.hpp
+db.h
+/home/hfut/Cluster_Chat_Server/src/server/db.h
 
 /home/hfut/Cluster_Chat_Server/src/server/usermodel.cpp
 usermodel.hpp
