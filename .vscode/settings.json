@@ -2,7 +2,8 @@
     "files.associations": {
         "ostream": "cpp",
         "functional": "cpp",
-        "unordered_map": "cpp"
+        "unordered_map": "cpp",
+        "thread": "cpp"
     },
     "cmake.sourceDirectory": "/home/hfut/Cluster_Chat_Server"
 }
